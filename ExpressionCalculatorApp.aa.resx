@@ -1,0 +1,462 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="InputTxtBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 32pt</value>
+  </data>
+  <data name="InputTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>727, 78</value>
+  </data>
+  <data name="Num1Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Num1Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num1Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num1Btn.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Num2Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num2Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num2Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num2Btn.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Num3Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num3Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num3Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num3Btn.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Num5Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num5Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num5Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num5Btn.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Num4Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num4Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num4Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num4Btn.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Num6Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num6Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num6Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num6Btn.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Num9Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num9Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num9Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num9Btn.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Num7Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num7Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num7Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num7Btn.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Num8Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num8Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num8Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num8Btn.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Num0Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="Num0Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Num0Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="Num0Btn.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DecimalBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="DecimalBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DecimalBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="DecimalBtn.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="EqualsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="EqualsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EqualsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 74</value>
+  </data>
+  <data name="EqualsBtn.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="ParenthesisBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="ParenthesisBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="ParenthesisBtn.Text" xml:space="preserve">
+    <value>()</value>
+  </data>
+  <data name="BracketBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="BracketBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BracketBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="BracketBtn.Text" xml:space="preserve">
+    <value>[]</value>
+  </data>
+  <data name="CurlBracketBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="CurlBracketBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CurlBracketBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="CurlBracketBtn.Text" xml:space="preserve">
+    <value>{}</value>
+  </data>
+  <data name="PlusBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="PlusBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PlusBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 133</value>
+  </data>
+  <data name="PlusBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="PlusBtn.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="MinusBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="MinusBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MinusBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 133</value>
+  </data>
+  <data name="MinusBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="MinusBtn.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MultiplyBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="MultiplyBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MultiplyBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 213</value>
+  </data>
+  <data name="MultiplyBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="MultiplyBtn.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="DivideBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="DivideBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DivideBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 213</value>
+  </data>
+  <data name="DivideBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="DivideBtn.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="NLogBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="NLogBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NLogBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="NLogBtn.Text" xml:space="preserve">
+    <value>Ln</value>
+  </data>
+  <data name="LogBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="LogBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LogBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="LogBtn.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="SinBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="SinBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SinBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="SinBtn.Text" xml:space="preserve">
+    <value>sin</value>
+  </data>
+  <data name="CosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="CosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="CosBtn.Text" xml:space="preserve">
+    <value>cos</value>
+  </data>
+  <data name="TanBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="TanBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TanBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="TanBtn.Text" xml:space="preserve">
+    <value>tan</value>
+  </data>
+  <data name="CotBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="CotBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CotBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="CotBtn.Text" xml:space="preserve">
+    <value>cot</value>
+  </data>
+  <data name="ACotTanBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ACotTanBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ACotTanBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="ACotTanBtn.Text" xml:space="preserve">
+    <value>arcctcg</value>
+  </data>
+  <data name="ATanBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ATanBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ATanBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="ATanBtn.Text" xml:space="preserve">
+    <value>arctan</value>
+  </data>
+  <data name="ACosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ACosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ACosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="ACosBtn.Text" xml:space="preserve">
+    <value>arccos</value>
+  </data>
+  <data name="ASinBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ASinBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ASinBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 74</value>
+  </data>
+  <data name="ASinBtn.Text" xml:space="preserve">
+    <value>arcsin</value>
+  </data>
+  <data name="ExpBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="ExpBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExpBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExpBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="ExpBtn.Text" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="ClrBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="ClrBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClrBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="ClrBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ClrBtn.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>756, 447</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ExpressionCalculator</value>
+  </data>
+</root>

@@ -1,0 +1,951 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="InputTxtBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="InputTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InputTxtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="InputTxtBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="InputTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 52</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InputTxtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InputTxtBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;InputTxtBox.Name" xml:space="preserve">
+    <value>InputTxtBox</value>
+  </data>
+  <data name="&gt;&gt;InputTxtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputTxtBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputTxtBox.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Num1Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num1Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 95</value>
+  </data>
+  <data name="Num1Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num1Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Num1Btn.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Num1Btn.Name" xml:space="preserve">
+    <value>Num1Btn</value>
+  </data>
+  <data name="&gt;&gt;Num1Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num1Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num1Btn.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Num2Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num2Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 95</value>
+  </data>
+  <data name="Num2Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num2Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Num2Btn.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Num2Btn.Name" xml:space="preserve">
+    <value>Num2Btn</value>
+  </data>
+  <data name="&gt;&gt;Num2Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num2Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num2Btn.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Num3Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num3Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 95</value>
+  </data>
+  <data name="Num3Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num3Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Num3Btn.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Num3Btn.Name" xml:space="preserve">
+    <value>Num3Btn</value>
+  </data>
+  <data name="&gt;&gt;Num3Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num3Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num3Btn.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Num5Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num5Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 182</value>
+  </data>
+  <data name="Num5Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num5Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Num5Btn.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Num5Btn.Name" xml:space="preserve">
+    <value>Num5Btn</value>
+  </data>
+  <data name="&gt;&gt;Num5Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num5Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num5Btn.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Num4Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num4Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 182</value>
+  </data>
+  <data name="Num4Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num4Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Num4Btn.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Num4Btn.Name" xml:space="preserve">
+    <value>Num4Btn</value>
+  </data>
+  <data name="&gt;&gt;Num4Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num4Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num4Btn.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Num6Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num6Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 182</value>
+  </data>
+  <data name="Num6Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num6Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Num6Btn.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Num6Btn.Name" xml:space="preserve">
+    <value>Num6Btn</value>
+  </data>
+  <data name="&gt;&gt;Num6Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num6Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num6Btn.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Num9Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num9Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 269</value>
+  </data>
+  <data name="Num9Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num9Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Num9Btn.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Num9Btn.Name" xml:space="preserve">
+    <value>Num9Btn</value>
+  </data>
+  <data name="&gt;&gt;Num9Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num9Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num9Btn.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Num7Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num7Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 269</value>
+  </data>
+  <data name="Num7Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num7Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Num7Btn.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Num7Btn.Name" xml:space="preserve">
+    <value>Num7Btn</value>
+  </data>
+  <data name="&gt;&gt;Num7Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num7Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num7Btn.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Num8Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num8Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 269</value>
+  </data>
+  <data name="Num8Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num8Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Num8Btn.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Num8Btn.Name" xml:space="preserve">
+    <value>Num8Btn</value>
+  </data>
+  <data name="&gt;&gt;Num8Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num8Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num8Btn.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Num0Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Num0Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 356</value>
+  </data>
+  <data name="Num0Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="Num0Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Num0Btn.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Num0Btn.Name" xml:space="preserve">
+    <value>Num0Btn</value>
+  </data>
+  <data name="&gt;&gt;Num0Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Num0Btn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Num0Btn.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="DecimalBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="DecimalBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 356</value>
+  </data>
+  <data name="DecimalBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="DecimalBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="DecimalBtn.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;DecimalBtn.Name" xml:space="preserve">
+    <value>DecimalBtn</value>
+  </data>
+  <data name="&gt;&gt;DecimalBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DecimalBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DecimalBtn.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="EqualsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="EqualsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 356</value>
+  </data>
+  <data name="EqualsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="EqualsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="EqualsBtn.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;EqualsBtn.Name" xml:space="preserve">
+    <value>EqualsBtn</value>
+  </data>
+  <data name="&gt;&gt;EqualsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EqualsBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EqualsBtn.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ParenthesisBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ParenthesisBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 134</value>
+  </data>
+  <data name="ParenthesisBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="ParenthesisBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ParenthesisBtn.Text" xml:space="preserve">
+    <value>()</value>
+  </data>
+  <data name="&gt;&gt;ParenthesisBtn.Name" xml:space="preserve">
+    <value>ParenthesisBtn</value>
+  </data>
+  <data name="&gt;&gt;ParenthesisBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ParenthesisBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ParenthesisBtn.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="BracketBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="BracketBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 221</value>
+  </data>
+  <data name="BracketBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="BracketBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="BracketBtn.Text" xml:space="preserve">
+    <value>[]</value>
+  </data>
+  <data name="&gt;&gt;BracketBtn.Name" xml:space="preserve">
+    <value>BracketBtn</value>
+  </data>
+  <data name="&gt;&gt;BracketBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BracketBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BracketBtn.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="BracesBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="BracesBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 308</value>
+  </data>
+  <data name="BracesBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 81</value>
+  </data>
+  <data name="BracesBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BracesBtn.Text" xml:space="preserve">
+    <value>{}</value>
+  </data>
+  <data name="&gt;&gt;BracesBtn.Name" xml:space="preserve">
+    <value>BracesBtn</value>
+  </data>
+  <data name="&gt;&gt;BracesBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BracesBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BracesBtn.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="PlusBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="PlusBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 134</value>
+  </data>
+  <data name="PlusBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="PlusBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="PlusBtn.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;PlusBtn.Name" xml:space="preserve">
+    <value>PlusBtn</value>
+  </data>
+  <data name="&gt;&gt;PlusBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlusBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PlusBtn.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="MinusBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="MinusBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 134</value>
+  </data>
+  <data name="MinusBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="MinusBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="MinusBtn.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;MinusBtn.Name" xml:space="preserve">
+    <value>MinusBtn</value>
+  </data>
+  <data name="&gt;&gt;MinusBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinusBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MinusBtn.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="MultiplyBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="MultiplyBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 223</value>
+  </data>
+  <data name="MultiplyBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="MultiplyBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="MultiplyBtn.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;MultiplyBtn.Name" xml:space="preserve">
+    <value>MultiplyBtn</value>
+  </data>
+  <data name="&gt;&gt;MultiplyBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MultiplyBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MultiplyBtn.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DivideBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="DivideBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 223</value>
+  </data>
+  <data name="DivideBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="DivideBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="DivideBtn.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;DivideBtn.Name" xml:space="preserve">
+    <value>DivideBtn</value>
+  </data>
+  <data name="&gt;&gt;DivideBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DivideBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DivideBtn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="NLogBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="NLogBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 181</value>
+  </data>
+  <data name="NLogBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 62</value>
+  </data>
+  <data name="NLogBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="NLogBtn.Text" xml:space="preserve">
+    <value>ln</value>
+  </data>
+  <data name="&gt;&gt;NLogBtn.Name" xml:space="preserve">
+    <value>NLogBtn</value>
+  </data>
+  <data name="&gt;&gt;NLogBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NLogBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NLogBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LogBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="LogBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 261</value>
+  </data>
+  <data name="LogBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 62</value>
+  </data>
+  <data name="LogBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LogBtn.Text" xml:space="preserve">
+    <value>log</value>
+  </data>
+  <data name="&gt;&gt;LogBtn.Name" xml:space="preserve">
+    <value>LogBtn</value>
+  </data>
+  <data name="&gt;&gt;LogBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LogBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="SinBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="SinBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 134</value>
+  </data>
+  <data name="SinBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="SinBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="SinBtn.Text" xml:space="preserve">
+    <value>sin</value>
+  </data>
+  <data name="&gt;&gt;SinBtn.Name" xml:space="preserve">
+    <value>SinBtn</value>
+  </data>
+  <data name="&gt;&gt;SinBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SinBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SinBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="CosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 203</value>
+  </data>
+  <data name="CosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="CosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="CosBtn.Text" xml:space="preserve">
+    <value>cos</value>
+  </data>
+  <data name="&gt;&gt;CosBtn.Name" xml:space="preserve">
+    <value>CosBtn</value>
+  </data>
+  <data name="&gt;&gt;CosBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CosBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CosBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TanBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="TanBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 272</value>
+  </data>
+  <data name="TanBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="TanBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="TanBtn.Text" xml:space="preserve">
+    <value>tan</value>
+  </data>
+  <data name="&gt;&gt;TanBtn.Name" xml:space="preserve">
+    <value>TanBtn</value>
+  </data>
+  <data name="&gt;&gt;TanBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TanBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TanBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CotBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="CotBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 341</value>
+  </data>
+  <data name="CotBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="CotBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="CotBtn.Text" xml:space="preserve">
+    <value>cot</value>
+  </data>
+  <data name="&gt;&gt;CotBtn.Name" xml:space="preserve">
+    <value>CotBtn</value>
+  </data>
+  <data name="&gt;&gt;CotBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CotBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CotBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ACotTanBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ACotTanBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 341</value>
+  </data>
+  <data name="ACotTanBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="ACotTanBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ACotTanBtn.Text" xml:space="preserve">
+    <value>arcctg</value>
+  </data>
+  <data name="&gt;&gt;ACotTanBtn.Name" xml:space="preserve">
+    <value>ACotTanBtn</value>
+  </data>
+  <data name="&gt;&gt;ACotTanBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ACotTanBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ACotTanBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ATanBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ATanBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 272</value>
+  </data>
+  <data name="ATanBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="ATanBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="ATanBtn.Text" xml:space="preserve">
+    <value>arctan</value>
+  </data>
+  <data name="&gt;&gt;ATanBtn.Name" xml:space="preserve">
+    <value>ATanBtn</value>
+  </data>
+  <data name="&gt;&gt;ATanBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ATanBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ATanBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ACosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ACosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 203</value>
+  </data>
+  <data name="ACosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="ACosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="ACosBtn.Text" xml:space="preserve">
+    <value>arccos</value>
+  </data>
+  <data name="&gt;&gt;ACosBtn.Name" xml:space="preserve">
+    <value>ACosBtn</value>
+  </data>
+  <data name="&gt;&gt;ACosBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ACosBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ACosBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ASinBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="ASinBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 134</value>
+  </data>
+  <data name="ASinBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 63</value>
+  </data>
+  <data name="ASinBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ASinBtn.Text" xml:space="preserve">
+    <value>arcsin</value>
+  </data>
+  <data name="&gt;&gt;ASinBtn.Name" xml:space="preserve">
+    <value>ASinBtn</value>
+  </data>
+  <data name="&gt;&gt;ASinBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ASinBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ASinBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ExpBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="ExpBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 312</value>
+  </data>
+  <data name="ExpBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="ExpBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ExpBtn.Text" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="&gt;&gt;ExpBtn.Name" xml:space="preserve">
+    <value>ExpBtn</value>
+  </data>
+  <data name="&gt;&gt;ExpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExpBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExpBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ClrBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="ClrBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 312</value>
+  </data>
+  <data name="ClrBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="ClrBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="ClrBtn.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;ClrBtn.Name" xml:space="preserve">
+    <value>ClrBtn</value>
+  </data>
+  <data name="&gt;&gt;ClrBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClrBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClrBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Expression Calculator v1.0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ExpressionCalculatorApp</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
